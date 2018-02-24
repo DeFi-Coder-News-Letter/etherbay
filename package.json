@@ -1,0 +1,41 @@
+{
+  "name": "point-token-contracts",
+  "version": "1.0.0",
+  "description": "Solidity contracts for the POINT token system",
+  "main": "contracts/PointToken.sol",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bignumber.js": "^6.0.0",
+    "ethjs": "^0.2.7",
+    "ethjs-format": "^0.2.0",
+    "ethjs-provider-http": "^0.1.6",
+    "ethjs-provider-signer": "^0.1.4",
+    "ethjs-query": "^0.2.6",
+    "ethjs-signer": "^0.1.1",
+    "zeppelin-solidity": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pointtoken/Contracts.git"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "rewards",
+    "gamification",
+    "loyalty",
+    "program"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pointtoken/Contracts/issues"
+  },
+  "homepage": "https://github.com/pointtoken/Contracts#readme"
+}
